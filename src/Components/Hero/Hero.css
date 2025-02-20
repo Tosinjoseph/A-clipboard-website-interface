@@ -1,0 +1,22 @@
+.hero p{
+    text-align: center;
+    width: 80%;
+    margin-top: 12px;
+}
+.hero h1{
+    font-size: 45px;
+    margin-top: 50px;
+    word-spacing: 3px;
+    text-align: center;
+    
+}
+.buttons{
+    gap: 12px;
+    margin-top: 50px;
+}
+.hero{
+    background: url('./bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}

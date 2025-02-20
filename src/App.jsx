@@ -1,0 +1,15 @@
+
+import './App.css'
+import Hero from './Components/Hero/Hero.jsx'
+
+function App() {
+
+
+  return (
+    <div>
+      <Hero/>
+    </div>
+  )
+}
+
+export default App
