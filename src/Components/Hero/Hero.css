@@ -18,5 +18,6 @@
     background: url('./bg-header-desktop.png');
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    font-family: 'Bai jamjuree' , sans-serif;
+    height: 80vh;
 }

@@ -1,0 +1,29 @@
+.header p{
+    margin-top: 12px;
+}
+.image-menu{
+    display: flex;
+    justify-content: flex-start;
+    gap: 90px;
+}
+.image-menu img{
+    justify-content: flex-start;
+    transform: translateX(-40px);
+    width: 50%;
+}
+.right h2{
+    font-size: 26px;
+}
+.right{
+    margin-right: 20%;
+}
+.right .top{
+    margin-top: 50px;
+}
+.top h2{
+    margin-bottom: 10px;
+}
+.track{
+    padding-top:20px ;
+    font-family: 'Bai jamjuree' , sans-serif;
+}
