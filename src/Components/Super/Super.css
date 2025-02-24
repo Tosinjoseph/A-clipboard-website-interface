@@ -1,0 +1,9 @@
+.super{
+    font-family: 'Bai jamjuree' , sans-serif;
+}
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    margin-top: 20px;
+}

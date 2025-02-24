@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container{
-  padding: 10% 20%;
+  padding: 5% 20%;
   
 }
 .flexCenter{
@@ -27,7 +27,7 @@
 }
 .secondaryText{
   color: hsl(210, 10%, 33%);
-  font-size: 26px;
+  font-size: 22px;
 }
 .button{
   width: 220px;
@@ -49,5 +49,8 @@
   font-size: 18px;
 }
 .textCenter{
+  text-align: center;
+}
+h2{
   text-align: center;
 }

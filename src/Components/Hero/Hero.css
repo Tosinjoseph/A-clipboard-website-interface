@@ -13,6 +13,7 @@
 .buttons{
     gap: 12px;
     margin-top: 50px;
+    
 }
 .hero{
     background: url('./bg-header-desktop.png');
@@ -20,4 +21,13 @@
     background-size: cover;
     font-family: 'Bai jamjuree' , sans-serif;
     height: 80vh;
+}
+.button:hover{
+    background:hsl(172, 14%, 79%);
+    color: black;
+    cursor: pointer;
+}
+.button2:hover{
+    background:  hsl(232, 23%, 74%); 
+    color: black;
 }
