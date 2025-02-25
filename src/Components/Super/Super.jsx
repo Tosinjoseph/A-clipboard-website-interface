@@ -5,7 +5,7 @@ const Super = () => {
   return (
     <div className='super'>
      <div className="head flexColCenter">
-        <h1>Spercharge your workflow</h1>
+        <h1 className='textCenter'>Spercharge your workflow</h1>
         <p className='secondaryText textCenter'>We’ve got the tools to boost your productivity. </p>
      </div>
      <div className="logo-menu container">
@@ -24,6 +24,13 @@ const Super = () => {
             <h2>Sneak Preview</h2>
             <p className="textCenter secondaryText">Quick preview of all snippets on your Clipboard for easy access.</p>
         </div>
+     </div>
+     <div className="logos">
+      <img src="./logo-google.png" alt="" />
+      <img src="./logo-ibm.png" alt="" />
+      <img src="./logo-microsoft.png" alt="" />
+      <img src="./logo-hp.png" alt="" />
+      <img src="./logo-vector-graphics.png" alt="" />
      </div>
     </div>
   )

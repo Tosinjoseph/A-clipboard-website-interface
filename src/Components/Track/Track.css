@@ -6,6 +6,7 @@
     justify-content: flex-start;
     gap: 90px;
 }
+
 .image-menu img{
     justify-content: flex-start;
     transform: translateX(-40px);
@@ -13,6 +14,8 @@
 }
 .right h2{
     font-size: 26px;
+    justify-content: flex-start;
+    display: flex;
 }
 .right{
     margin-right: 20%;
@@ -26,4 +29,63 @@
 .track{
     padding-top:20px ;
     font-family: 'Bai jamjuree' , sans-serif;
+}
+
+
+
+@media (max-width: 316px){
+    .track{
+        padding-top:100px;
+    }
+}
+@media (max-width: 1047px){
+    .track{
+        .right{
+            margin-right: 15%;
+        }
+        .right .top{
+            margin-top: 40px;
+        }
+        .image-menu img{
+            width: 40%;
+        }
+    }
+}
+@media (max-width: 900px){
+    .image-menu{
+        gap: 70px;
+    }
+}
+@media (max-width: 660px){
+    .image-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+
+    }
+    .image-menu img{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        transform: translateX(0);
+    }
+    .right h2{
+        justify-content: center;
+    }
+    .right{
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10%;
+        display: block;
+    }
+    .right{
+        margin-right: 0px;
+    }
+    .track{
+        padding: 0;
+    }
 }

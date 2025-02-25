@@ -4,6 +4,31 @@
 .logo-menu{
     display: flex;
     justify-content: space-between;
-    gap: 1px;
+    gap: 6px;
     margin-top: 20px;
+}
+.head h1{
+    margin-bottom: 10px;
+}
+.super .logos{
+    display: flex;
+    padding: 5% 5%;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 1200px){
+    .super{
+        padding: 0;
+    }
+}
+@media (max-width: 800px){
+    .logo-menu{
+        flex-direction: column;
+    }
 }

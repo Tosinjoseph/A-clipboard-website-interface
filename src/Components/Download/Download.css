@@ -1,0 +1,13 @@
+.download{
+    font-family:'Bai jamjuree' , sans-serif ;
+}
+.download h1{
+   margin-bottom: 10px; 
+}
+ .buttons{
+    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-right: 10%;
+}

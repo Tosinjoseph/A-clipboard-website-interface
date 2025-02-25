@@ -31,3 +31,21 @@
     background:  hsl(232, 23%, 74%); 
     color: black;
 }
+
+
+
+@media (max-width: 771px){
+    .hero{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 574px){
+    .hero{
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 451px){
+    .hero{
+        margin-bottom: 200px;
+    }
+}

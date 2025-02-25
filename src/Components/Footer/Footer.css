@@ -1,0 +1,22 @@
+.footer{
+    padding: 5% 5%;
+    gap: 60px;
+    font-family:'Bai jamjuree' , sans-serif ;
+    background:  hsl(180, 2%, 88%);
+}
+.footer>:nth-child(1){
+    width: 50px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logos{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
